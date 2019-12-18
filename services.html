@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="fontawesome/js/all.js"></script> <!--load all styles -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="about-title">
+            <h1>Slideshow Generator</h1>
+        </div>
+
+        <div>
+            <input type="text" class="form" name="name" id="formName" placeholder="Name">
+            <input type="text" class="form" name="url" id="formUrl" placeholder="Image url">
+            <button type="button" class="btn" id="addButton">Add</button>
+            <button type="button" class="btn" id="updateButton" disabled>Update</button>
+            <button type="button" class="btn" id="slideshowButton">Generate Slideshow</button>
+            <button type="button" class="btn" id="stopButton">Stop Slideshow</button>
+        </div>
+
+        <div id="image-list" class="image-list"></div>
+
+        <div class="slideshow" id="slideshow"></div>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>Andrei Arnautu &copy; 2019</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </div>
+</body>

@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "name": "JohnDoe",
+      "password": "johndoe",
+      "special": "This is John Doe's string",
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "JaneDoe",
+      "password": "janedoe",
+      "special": "This is Jane Doe's string",
+      "img": "janedoe"
+    }
+  ]
+}

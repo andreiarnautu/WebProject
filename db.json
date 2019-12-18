@@ -1,0 +1,39 @@
+{
+  "laptops": [
+    {
+      "name": "Macbook Pro 16",
+      "img": "https://istyle.ro/media/oander/news/article/00_Apple_Launched_the_New_MacBook_Pro_16_inch_cover.jpg",
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Asus Zenbook Pro",
+      "img": "https://www.asus.com/media/global/products/sIVMVmQPw67EGfbB/P_setting_fff_1_90_end_600.png"
+    },
+    {
+      "name": "HP Envy",
+      "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/8/J/8JU66PA-1_T1568792964.png",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "name": "JohnDoe",
+      "password": "johndoe",
+      "special": "This is John Doe's string",
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "JaneDoe",
+      "password": "janedoe",
+      "special": "This is Jane Doe's string"
+    },
+    {
+      "name": "andi",
+      "password": "parola",
+      "special": "liverpool",
+      "id": 2
+    }
+  ]
+}
