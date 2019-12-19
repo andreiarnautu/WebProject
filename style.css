@@ -192,6 +192,10 @@ footer {
     text-align: justify;
 }
 
+.about-image h6 {
+    display: none;
+}
+
 /* Services */
 
 .form {
