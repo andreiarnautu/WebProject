@@ -1,0 +1,18 @@
+{
+    "users": [{
+        "id": 0,
+        "name": "JohnDoe",
+        "password": "johndoe",
+        "special": "This is John Doe's string"
+    }, {
+        "id": 1,
+        "name": "JaneDoe",
+        "password": "janedoe",
+        "special": "This is Jane Doe's string",
+    }, {
+        "id": 2,
+        "name": "andi",
+        "password": "parola",
+        "special": "liverpool"
+    }]
+}

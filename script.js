@@ -92,6 +92,7 @@ function appendLaptopsToDOM(laptops) {
     for (let i = 0; i < laptops.length; i++) {
         //  Create new image&name objects.
         let img = document.createElement('img');
+        console.log(laptops[i].img);
         img.src = laptops[i].img;
         img.className = "services-image";
         let name = document.createElement('span');
